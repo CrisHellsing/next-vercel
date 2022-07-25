@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+      "target": "es5",
+      "lib": [
+        "dom",
+        "dom.iterable",
+        "esnext"
+      ],
+      "allowJs": true,
+      "skipLibCheck": true,
+      "strict": false,
+      "forceConsistentCasingInFileNames": true,
+      "noEmit": true,
+      "incremental": true,
+      "esModuleInterop": true,
+      "module": "esnext",
+      "moduleResolution": "node",
+      "resolveJsonModule": true,
+      "isolatedModules": true,
+      "jsx": "preserve"
+    },
+    "include": [
+      "next-env.d.ts",
+      "**/*.ts",
+      "**/*.tsx"
+, "components/layouts/DarkLayout.jsx", "components/layouts/MainLayout.jsx", "pages/_app.js", "pages/contact/index.jsx", "pages/pricing/index.jsx", "components/ActiveLink.jsx", "components/NavBar.jsx", "pages/about.jsx", "pages/index.jsx"    ],
+    "exclude": [
+      "node_modules"
+    ]
+}
